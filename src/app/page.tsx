@@ -74,7 +74,7 @@ export default function Home() {
               {home.subline}
             </Text>
           </RevealFx>
-          <RevealFx translateY="12" delay={0.4} horizontal="start">
+          <RevealFx translateY="12" delay={0.6} horizontal="start">
             <Button
               id="about"
               data-border="rounded"
@@ -97,7 +97,7 @@ export default function Home() {
           </RevealFx>
         </Column>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
+      <RevealFx translateY="16" delay={0.4}>
         <Projects range={[1, 1]} />
       </RevealFx>
       {routes["/blog"] && (

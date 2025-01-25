@@ -55,7 +55,7 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer. I craft intuitive user experiences.
+      I'm Shrishesha, a solo developer. I craft intuitive user experiences.
       <br />After hours, I build my own projects.
     </>
   ),
@@ -81,8 +81,8 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        Shrishesha is a Chennai-based Solo developer with a passion for transforming complex challenges
+        into simple, elegant solutions. His work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
     ),
@@ -141,6 +141,10 @@ const about = {
         name: "Saveetha School Of Engineering",
         description: <>Studied Information Technology.</>,
       },
+      {
+        name: "Self Education",
+        description: <>Apart from formal education, I have completed several milestones in learning about exciting new technologies with passion. </>,
+      },
     ],
   },
   technical: {
@@ -149,35 +153,28 @@ const about = {
     skills: [
       {
         title: "Python",
-        description: <>I know Python!</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-02.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-          // {
-          //   src: "/images/projects/project-01/cover-03.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        description: <>I have done quite a few projects using python. You can view them in my Github</>,
+        images: [],
       },
       {
         title: "Next.js",
         description: <>Building next gen apps with Next.js.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          // {
-          //   src: "/images/projects/project-01/cover-04.jpg",
-          //   alt: "Project image",
-          //   width: 16,
-          //   height: 9,
-          // },
-        ],
+        images: [],
+      },
+      {
+        title: "PostgreSQL",
+        description: <>Experience with PostgreSQL database design, optimization, and management.</>,
+        images: [],
+      },
+      {
+        title: "Web Development",
+        description: <>Full-stack web development using modern technologies and best practices.</>,
+        images: [],
+      },
+      {
+        title: "Tech Support",
+        description: <>Experienced in providing technical support, troubleshooting, and resolving complex technical issues.</>,
+        images: [],
       },
     ],
   },
@@ -202,7 +199,7 @@ const work = {
 const gallery = {
   label: "Gallery",
   title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
+  description: `And... I have a huge interest in Photography, here's a photo collection by me.`,
   // Images from https://pexels.com
   images: [
     {
@@ -213,7 +210,7 @@ const gallery = {
     {
       src: "/images/gallery/img-02.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-03.jpg",
@@ -223,12 +220,12 @@ const gallery = {
     {
       src: "/images/gallery/img-04.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-05.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-06.jpg",
@@ -248,12 +245,12 @@ const gallery = {
     {
       src: "/images/gallery/img-09.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-10.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     {
       src: "/images/gallery/img-11.jpg",
@@ -271,9 +268,19 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/gallery/img-15.jpg",
       alt: "image",
       orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/img-14.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/img-16.jpg",
+      alt: "image",
+      orientation: "vertical",
     },
   ],
 };
