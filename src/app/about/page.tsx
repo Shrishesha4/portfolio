@@ -299,16 +299,16 @@ export default function About() {
                             key={index}
                             border="neutral-medium"
                             radius="m"
-                            minWidth={image.width}
-                            height={image.height}
+                            // minWidth={image.width}
+                            // height={image.height}
                           >
-                            <SmartImage
+                            {/* <SmartImage
                               enlarge
                               radius="m"
                               sizes={image.width.toString()}
                               alt={image.alt}
                               src={image.src}
-                            />
+                            /> */}
                           </Flex>
                         ))}
                       </Flex>
