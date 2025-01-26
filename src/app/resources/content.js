@@ -6,6 +6,9 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
+  get fname(){
+    return this.firstName;
+  },
   role: "Tech Enthusiast",
   avatar: "/images/avatar.jpg",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -200,87 +203,102 @@ const gallery = {
   label: "Gallery",
   title: "My photo gallery",
   description: `And... I have a huge interest in Photography, here's a photo collection by me.`,
-  // Images from https://pexels.com
   images: [
     {
       src: "/images/gallery/img-01.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A serene landscape at dawn",
     },
     {
       src: "/images/gallery/img-02.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "City lights reflecting on the river",
     },
     {
       src: "/images/gallery/img-03.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A quiet street in the old town",
     },
     {
       src: "/images/gallery/img-04.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "Sunset over the mountains",
     },
     {
       src: "/images/gallery/img-05.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A bustling market scene",
     },
     {
       src: "/images/gallery/img-06.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A tranquil beach at dusk",
     },
     {
       src: "/images/gallery/img-07.jpg",
       alt: "image",
       orientation: "horizontal",
+      caption: "A vibrant cityscape",
     },
     {
       src: "/images/gallery/img-08.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A peaceful forest path",
     },
     {
       src: "/images/gallery/img-09.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A historic building facade",
     },
     {
       src: "/images/gallery/img-10.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A colorful garden in bloom",
     },
     {
       src: "/images/gallery/img-11.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A majestic waterfall",
     },
     {
       src: "/images/gallery/img-12.jpg",
       alt: "image",
       orientation: "horizontal",
+      caption: "A panoramic view of the skyline",
     },
     {
       src: "/images/gallery/img-13.jpg",
       alt: "image",
       orientation: "horizontal",
+      caption: "A bustling city street",
     },
     {
       src: "/images/gallery/img-15.jpg",
       alt: "image",
       orientation: "horizontal",
+      caption: "A serene lake at sunrise",
     },
     {
       src: "/images/gallery/img-14.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A quaint village scene",
     },
     {
       src: "/images/gallery/img-16.jpg",
       alt: "image",
       orientation: "vertical",
+      caption: "A dramatic mountain range",
     },
   ],
 };

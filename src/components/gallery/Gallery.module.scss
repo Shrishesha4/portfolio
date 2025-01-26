@@ -12,3 +12,14 @@
 .gridItem {
     margin-bottom: var(--static-space-16);
 }
+
+.gridItemWrapper {
+    margin-bottom: 15px; /* Adjust spacing as needed */
+}
+
+.caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #9bbbcd; /* Adjust color as needed */
+    margin-top: 5px;
+}
