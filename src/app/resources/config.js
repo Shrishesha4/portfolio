@@ -13,7 +13,7 @@ const routes = {
 const protectedRoutes = {
   "/": false,
   "/about": false,
-  "/work": true,
+  "/work": false,
   "/blog": false,
   "/gallery": false,
 };
