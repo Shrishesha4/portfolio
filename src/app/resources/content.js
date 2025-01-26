@@ -6,9 +6,6 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  get fname(){
-    return this.firstName;
-  },
   role: "Tech Enthusiast",
   avatar: "/images/avatar.jpg",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -53,7 +50,7 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${person.firstName}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Design engineer and builder</>,
   subline: (
